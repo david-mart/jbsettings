@@ -1,0 +1,21 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="Angular2HTML" injector-id="xml">
+      <display-name>img/@ng-src</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-src")).withParent(xmlTag().withLocalName(string().equalTo("img")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="Angular2HTML" injector-id="xml">
+      <display-name>ul/@ng-options</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-options")).withParent(xmlTag().withLocalName(string().equalTo("ul")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="AngularJS" injector-id="xml">
+      <display-name>ul/@ng-options</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ng-options")).withParent(xmlTag().withLocalName(string().equalTo("ul")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>
