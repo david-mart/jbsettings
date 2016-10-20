@@ -9,7 +9,7 @@
     <option name="greenTo" value="224" />
     <option name="heatupTime" value="15349" />
     <option name="redFrom" value="59" />
-    <option name="shakeRange" value="0" />
+    <option name="shakeRange" value="5" />
     <option name="sparkCount" value="100" />
     <option name="sparkLife" value="2229" />
     <option name="sparkSize" value="6" />
