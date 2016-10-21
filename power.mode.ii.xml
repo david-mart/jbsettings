@@ -3,6 +3,7 @@
     <option name="blueFrom" value="124" />
     <option name="blueTo" value="255" />
     <option name="colorAlpha" value="126" />
+    <option name="enabled" value="false" />
     <option name="flameLife" value="1977" />
     <option name="flamesEnabled" value="false" />
     <option name="frameRate" value="60" />
